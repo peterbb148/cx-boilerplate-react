@@ -39,7 +39,7 @@ yarn start
 ```
 ## Deployment
 
-Should end up here: [Boilerplate](https://cx-boilerplate-react.s3-eu-west-1.amazonaws.com/index.html)
+Should end up here: [Boilerplate](https://s3-cx-boilerplate-react-github-actions.s3-eu-west-1.amazonaws.com/index.html)
 
 ## Docker Image
 
