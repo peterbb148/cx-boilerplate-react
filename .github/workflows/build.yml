@@ -34,3 +34,9 @@ jobs:
         yarn build
     - name: Deploy static site to S3 bucket
       run: aws s3 sync ./dist/ s3://s3-cx-boilerplate-react-github-actions --delete
+    - name: Build docker image
+      run: |
+        docker build . --tag cx-boilerplate-react:latest
+        docker tag cx-boilerplate-react:latest peterbb148/cx-boilerplate-react:latest
+        docker push peterbb148/cx-boilerplate-react:latest
+      
