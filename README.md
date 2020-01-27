@@ -40,3 +40,22 @@ yarn start
 ## Deployment
 
 Should end up here: [Boilerplate](https://cx-boilerplate-react.s3-eu-west-1.amazonaws.com/index.html)
+
+## Docker Image
+
+To build the image run this
+```
+docker build . --tag cx-boilerplate-react:latest
+```
+To push the image to Docker Hub run this:
+```
+docker tag cx-boilerplate-react:latest  peterbb148/cx-boilerplate-react:latest
+docker push peterbb148/cx-boilerplate-react:latest
+```
+To launch a container based on the image run this:
+```
+docker run --rm -d -p 80:80 cx-boilerplate-react
+```
+
+docker tag cx-boilerplate-react:latest 295277847209.dkr.ecr.eu-west-1.amazonaws.com/cx-boilerplate-react:latest
+docker push 295277847209.dkr.ecr.eu-west-1.amazonaws.com/cx-boilerplate-react:latest
