@@ -56,6 +56,8 @@ To launch a container based on the image run this:
 ```
 docker run --rm -d -p 80:80 cx-boilerplate-react
 ```
-
+Pushing to Docker Hub
+```
 docker tag cx-boilerplate-react:latest 295277847209.dkr.ecr.eu-west-1.amazonaws.com/cx-boilerplate-react:latest
 docker push 295277847209.dkr.ecr.eu-west-1.amazonaws.com/cx-boilerplate-react:latest
+```
