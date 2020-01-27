@@ -18,7 +18,7 @@ jobs:
         yarn test
     env:
       CI: true
-  deploy:
+  deploy-s3:
     needs: [build]
     runs-on: ubuntu-latest
     steps:
@@ -35,3 +35,13 @@ jobs:
         yarn build
     - name: Deploy static site to S3 bucket
       run: aws s3 sync ./dist/ s3://s3-cx-boilerplate-react-github-actions --delete
+  deploy-image:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Publish to Docker Repository
+      uses: elgohr/Publish-Docker-Github-Action@master
+      with:
+        name: peterbb148/cx-boilerplate-react
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
