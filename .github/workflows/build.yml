@@ -41,4 +41,9 @@ jobs:
         docker build . --tag cx-boilerplate-react:latest
         docker tag cx-boilerplate-react:latest peterbb148/cx-boilerplate-react:latest
         docker push peterbb148/cx-boilerplate-react:latest
-      
+    - name: Deploy to GH-Pages
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: gh-pages # The branch the action should deploy to.
+        FOLDER: ./dist/ # The folder the action should deploy.      
