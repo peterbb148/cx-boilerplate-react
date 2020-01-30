@@ -2,12 +2,13 @@
 @import './reset.scss';
 @import './variables';
 
-body {
-  background: linear-gradient(135deg, $deep-teal, $macaroni-and-cheese 250%) ;
+body, html {
+  background: $pale-grey;
   font-family: $font-family;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 a {

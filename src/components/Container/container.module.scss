@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+
+  &.medium {
+    padding: 32px
+  }
+
+  &.small {
+    padding: 16px;
+  }
+
+  &.none {
+    padding: 0;
+  }
+
+  &.horizontal {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &.vertical {
+    flex-direction: column;
+  }
+
+  &.fullWidth {
+    width: 100%;
+  }
+
+  &.fullHeight {
+    height: 100%;
+  }
+}

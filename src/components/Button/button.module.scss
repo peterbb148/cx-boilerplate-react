@@ -1,0 +1,40 @@
+@import '../../styles/variables';
+
+.button {
+  display: flex;
+  height: 48px;
+  line-height: 48px;
+  min-width: 144px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  color: $white;
+  background-color: $turquoise;
+  border: 1px solid $turquoise;
+
+  &.secondary {
+    background-color: $white;
+    color: $turquoise;
+  }
+
+  &.right {
+    align-self: flex-end;
+  }
+
+  &.bottom {
+    margin-top: auto;
+  }
+
+  &.fullWidth {
+    width: 100%;
+  }
+
+  .text {
+    font-weight: 700;
+    font-size: $font-size-tiny;
+  }
+
+  .icon {
+    margin-left: 16px;
+  }
+}

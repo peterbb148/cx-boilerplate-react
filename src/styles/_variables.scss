@@ -29,6 +29,15 @@
  $macaroni-and-cheese: #fac42f !default;
  $light-blue-grey: #cbd5d9 !default;
  $steel: #797f87 !default;
+
+ /**
+ * Text Colors
+ */
+
+$darkgrey: $dark;
+$greymid: $slate-grey;
+$grey: $light-grey-blue;
+$primary: $turquoise;
  
  /**
   * Theme Colors
@@ -47,8 +56,8 @@
  $danger: $red !default;
  
  // Typography
- $font-size-tiny: .81rem;
- $font-size-small: .94rem;
+ $font-size-tiny: .75rem;
+ $font-size-small: .875rem;
  $font-size-medium: 1rem;
  $font-size-large: 1.375rem;
  $font-size-big: 2.375rem;
@@ -56,11 +65,10 @@
  $font-family: 'Montserrat', sans-serif;
  
  // Shadows
- $card-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
- $notification-shadown: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
- $default-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
- $inverted-shadow: 0 -10px 15px 0 rgba(0, 0, 0, 0.1);
- 
+ $card-shadow: 0 40px 40px -40px rgba(0,0,0,0.16);
+ $bars-shadow: 0 2px 10px 0 rgba(0,0,0,0.1);
+ $profile-shadow: 0 15px 8px -10px rgba(0,0,0,0.1);
+
  // Borders
  $default-border: 1px solid rgba(52, 53, 56, 0.3);
  

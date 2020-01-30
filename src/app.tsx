@@ -1,9 +1,9 @@
 import React from 'react';
 import { store } from './store';
 import { Provider } from 'react-redux';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 
-import Hello from './components/Hello';
+import Root from './components/Root';
 import About from './components/About';
 
 const App:React.FC<void> = () => (
@@ -14,8 +14,9 @@ const App:React.FC<void> = () => (
           <About />
         </Route>
         <Route path="/" exact>
-          <Hello />
+          <Root />
         </Route>
+        <Redirect to="/" />
       </Switch>
     </BrowserRouter>
   </Provider>

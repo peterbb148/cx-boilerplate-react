@@ -1,0 +1,54 @@
+@import '../../styles/variables';
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: $white;
+  box-shadow: $card-shadow;
+  border-radius: 16px;
+  margin: 0 16px 16px 0;
+
+  &:last-child {
+    margin-right:0;
+  }
+
+  &.heightSmall {
+    height: 200px;
+    overflow-y: scroll;
+  }
+
+  &.heightMedium {
+    height: 300px;
+    overflow-y: scroll;
+  }
+
+  &.heightLarge {
+    height: 600px;
+    overflow-y: scroll;
+  }
+
+  &.heightFull {
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+  &.widthSmall {
+    width: 200px;
+    overflow-y: scroll;
+  }
+
+  &.widthMedium {
+    width: 300px;
+    overflow-y: scroll;
+  }
+
+  &.widthLarge {
+    width: 600px;
+    overflow-y: scroll;
+  }
+
+  &.widthFull {
+    width: 100%;
+    overflow-y: scroll;
+  }
+}

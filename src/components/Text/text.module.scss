@@ -1,0 +1,73 @@
+@import '../../styles/variables';
+
+.text {
+  font-family: $font-family;
+
+  &.tiny {
+    font-size: $font-size-tiny;
+    line-height: 15px;
+  }
+
+  &.small {
+    font-size: $font-size-small;
+    line-height: 20px;
+  }
+
+  &.medium {
+    font-size: $font-size-medium;
+    line-height: 24px;
+  }
+
+  &.large {
+    font-size: $font-size-large;
+    line-height: 30px;
+  }
+
+  &.big {
+    font-size: $font-size-big;
+    line-height: $font-size-big;
+  }
+
+  &.huge {
+    font-size: $font-size-huge;
+    line-height: $font-size-huge;
+  }
+
+  &.bold {
+    font-weight: 700;
+  }
+
+  &.alignLeft {
+    text-align: left;
+  }
+
+  &.alignRight {
+    text-align: right;
+  }
+
+  &.alignCenter {
+    text-align: center;
+  }
+
+  &.darkgrey {
+    color: $darkgrey;
+  }
+
+  &.greymid {
+    color: $greymid;
+  }
+
+  &.grey {
+    color: $grey;
+  }
+
+  &.white {
+    color: $white;
+  }
+
+  &.primary {
+    color: $primary;
+  }
+
+
+}

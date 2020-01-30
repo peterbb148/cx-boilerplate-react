@@ -1,0 +1,45 @@
+@import '../../styles/variables';
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  flex: 0 0 80px;
+  background: #FFFFFF;
+  padding: 16px;
+  box-sizing: border-box;
+  box-shadow: $bars-shadow;
+  z-index: 1002;
+
+  .logo svg > * path {
+    fill : #0AC39B;
+  }
+
+  .linksWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+
+    .button {
+      margin-top: 16px;
+      height: 40px;	
+      width: 40px;
+
+      a {
+        display: block;
+        height: 40px;	
+        width: 40px;	
+        border-radius: 12px;	
+        background-color: #DCE0E5;
+        text-align: center;
+        line-height: 40px;
+        text-decoration: none;
+        color: #FFFFFF;	
+        font-family: Montserrat;	
+        font-size: 12px;	
+        font-weight: 600;	
+      }
+    }
+  }
+}

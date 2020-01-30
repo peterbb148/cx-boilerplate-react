@@ -49,7 +49,7 @@ docker build . --tag cx-boilerplate-react:latest
 ```
 To push the image to Docker Hub run this:
 ```
-docker tag cx-boilerplate-react:latest  peterbb148/cx-boilerplate-react:latest
+docker tag cx-boilerplate-react:latest peterbb148/cx-boilerplate-react:latest
 docker push peterbb148/cx-boilerplate-react:latest
 ```
 To launch a container based on the image run this:

@@ -1,0 +1,27 @@
+@import '../../styles/variables';
+
+.profilePhoto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  .imgWrapper {
+    width: 88px;
+    height: 88px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 4px solid $white;
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-align: center;
+    box-shadow: $profile-shadow;
+
+    img {
+      max-width: 100%;
+      top: 50%;
+      position: relative;
+      transform: translate(0,-50%);
+    }
+  }
+}
