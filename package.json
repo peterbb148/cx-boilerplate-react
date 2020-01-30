@@ -8,6 +8,8 @@
     "build": "webpack --mode production"
   },
   "dependencies": {
+    "@types/classnames": "^2.2.9",
+    "classnames": "^2.2.6",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "react": "^16.12.0",

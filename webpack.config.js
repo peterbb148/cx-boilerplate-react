@@ -18,7 +18,7 @@ module.exports = {
     ]
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js'
   },
   module: {
@@ -94,7 +94,7 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase:  path.resolve(__dirname, 'dist'),
+    contentBase:  path.resolve(__dirname, 'build'),
     historyApiFallback: true,
     port: 1847,
     open: true
