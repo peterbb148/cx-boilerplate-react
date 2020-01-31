@@ -54,7 +54,8 @@ docker push peterbb148/cx-boilerplate-react:latest
 ```
 To launch a container based on the image run this:
 ```
-docker run --rm -d -p 80:80 cx-boilerplate-react
+docker pull peterbb148/cx-boilerplate-react:latest
+docker run --rm -d -p 80:80 peterbb148/cx-boilerplate-react:latest
 ```
 Pushing to Amazon ECR
 ```
