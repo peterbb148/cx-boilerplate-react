@@ -3,6 +3,7 @@
 This repo objective is to be forked in order to bootstrap new react applications development. This repo should not be altered, only forked into a new preoject repo.
 
 ## Jenkins
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 [![Build Status](https://cxproject-dev-jenkins.cpaasnet.com/buildStatus/icon?job=backoffice-backends%2Fcx-cadi-backoffice-be%2Fmaster)](https://cxproject-dev-jenkins.cpaasnet.com/view/BackOffice/job/backoffice-backends/job/cx-cadi-backoffice-be/job/master/)
 
