@@ -5,6 +5,7 @@ This repo objective is to be forked in order to bootstrap new react applications
 ## Jenkins
 ![Build Status](https://cxproject-dev-jenkins.cpaasnet.com/buildStatus/icon?job=cx-notification-services%2Fdevelop)
 
+![Build Status](https://cxproject-dev-jenkins.cpaasnet.com/view/CX%20Shared%20Services/job/cx-notification-services/job/develop/badge/icon)
 
 ## Stack
 
