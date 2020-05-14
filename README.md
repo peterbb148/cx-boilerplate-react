@@ -6,6 +6,8 @@ This repo objective is to be forked in order to bootstrap new react applications
 
 [![Build Status](https://cxproject-dev-jenkins.cpaasnet.com/buildStatus/icon?job=backoffice-backends%2Fcx-cadi-backoffice-be%2Fmaster)](https://cxproject-dev-jenkins.cpaasnet.com/view/BackOffice/job/backoffice-backends/job/cx-cadi-backoffice-be/job/master/)
 
+[![Build Status](https://cxproject-dev-jenkins.cpaasnet.com/buildStatus/icon?job=backoffice-backends%2Fcx-cadi-backoffice-be%2Fmaster)](https://cxproject-dev-jenkins.cpaasnet.com/view/BackOffice/job/backoffice-backends/job/cx-cadi-backoffice-be/job/master/)
+
 ## Stack
 
 One of the reasons for this repo to exist is to enforce the usage of some libraries. This way we make sure that all Carlsberg developers know what to expect when a react application lands on their shoulders.
