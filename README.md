@@ -7,6 +7,7 @@ This repo objective is to be forked in order to bootstrap new react applications
 
 ![Build Status](https://cxproject-dev-jenkins.cpaasnet.com/buildStatus/icon?job=cx-notification-services%2Fdevelop)
 
+![Build Status](https://consumertech-jenkins-dev.cpaasnet.com/buildStatus/icon?job=elud-project%2Fct-elud-sales-frontend)
 
 ## Stack
 
