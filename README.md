@@ -4,12 +4,10 @@ This repo is forked from https://github.com/carlsberggbs/cx-boilerplate-react !!
 
 Al changes from there by me.
 
-This repo objective is to be forked in order to bootstrap new react applications development. This repo should not be altered, only forked into a new preoject repo.
-
 ## Badges
 
-
-![alt text](https://img.shields.io/github/workflow/status/peterbb148/cx-boilerplate-react/Build/develop)
+Develop: ![alt text](https://img.shields.io/github/workflow/status/peterbb148/cx-boilerplate-react/Build/develop)
+Master: ![alt text](https://img.shields.io/github/workflow/status/peterbb148/cx-boilerplate-react/Build/master)
 
 ## Initialization
 This repo was configured using [yarn](https://yarnpkg.com), so you should use it to avoid conflicts.
