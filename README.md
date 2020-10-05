@@ -1,35 +1,16 @@
-# Carlsberg Digital React Boilerplate
+# Carlsberg Digital React Boilerplate 🚀 edition by Peter Birkholm-Buch
+
+This repo is forked from https://github.com/carlsberggbs/cx-boilerplate-react !!!
+
+Al changes from there by me.
 
 This repo objective is to be forked in order to bootstrap new react applications development. This repo should not be altered, only forked into a new preoject repo.
 
-## Jenkins
-![Build Status](https://cxproject-dev-jenkins.cpaasnet.com/buildStatus/icon?job=cx-notification-services%2Fdevelop)
+## Badges
 
-![Build Status](https://cxproject-dev-jenkins.cpaasnet.com/buildStatus/icon?job=cx-notification-services%2Fdevelop)
+personnal computer
 
-![Build Status](https://consumertech-jenkins-dev.cpaasnet.com/buildStatus/icon?job=elud-project%2Fct-elud-sales-frontend)
-
-## Stack
-
-One of the reasons for this repo to exist is to enforce the usage of some libraries. This way we make sure that all Carlsberg developers know what to expect when a react application lands on their shoulders.
-
-With that in mind, the following are the main libraries that compose this stack:
-
-- [Typescript](https://www.typescriptlang.org/)
-- [React](https://reactjs.org/)
-- [react-redux](https://react-redux.js.org/)
-- [redux-saga](https://redux-saga.js.org/)
-- [CSS Modules](https://github.com/css-modules/css-modules) with SCSS
-- [React-router](https://reacttraining.com/react-router/web/)
-
-From project to project so things will change based on needs and preferences, just keep in mind that you may not be handling this forever. try to keep as close as possible to this folder structure and libraries, if not possible leave a brief description at your repo README or code so that other can navigate easily.
-
-## Pre-requisites
-
-The usage of this boilerplate assumes that you have [node](https://nodejs.org) already installed on your personnal computer
-
-## Usage
-
+## Initialization
 This repo was configured using [yarn](https://yarnpkg.com), so you should use it to avoid conflicts.
 Install it globally using 
 
@@ -37,20 +18,31 @@ Install it globally using
 npm install yarn -g
 ```
 
+## Building
 After this you should be good to go with the usual steps
-
 ```console
 yarn
+yarn build
+```
 
+## Running
+After this you should be good to go with the usual steps
+```console
+yarn
 yarn start
 ```
+
+## GitHub Actions
+
+This repo is automatically built and deployed using GitHub Actions.
+
 ## Deployment
 
 Should end up here: [Boilerplate](https://s3-cx-boilerplate-react-github-actions.s3-eu-west-1.amazonaws.com/index.html)
 
 ## Docker Image
 
-To build the image run this
+If for some strange reason you would want to run this inside a container do this to build the image
 ```
 docker build . --tag cx-boilerplate-react:latest
 ```
