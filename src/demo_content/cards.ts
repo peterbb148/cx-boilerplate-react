@@ -2,6 +2,11 @@ const CARDS_DEMO = [
   {
     title: 'Demo Project',
     description: 'A demo project to show case whatever management wants to see.',
+    cta: {
+      label: 'Go to Success',
+      type: 'external_link',
+      destination: 'https://www.baltikaonline.ru' 
+    }
   },
   {
     title: 'Confluence',
