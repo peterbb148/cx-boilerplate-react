@@ -1,7 +1,7 @@
 const CARDS_DEMO = [
   {
     title: 'Demo Project',
-    description: 'A demo project to show case what',
+    description: 'A demo project to show case whatever management wants to see.',
   },
   {
     title: 'Confluence',
