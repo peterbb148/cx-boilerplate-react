@@ -8,7 +8,8 @@ This repo objective is to be forked in order to bootstrap new react applications
 
 ## Badges
 
-personnal computer
+
+![alt text](https://img.shields.io/github/workflow/status/peterbb148/cx-boilerplate-react/Build/develop)
 
 ## Initialization
 This repo was configured using [yarn](https://yarnpkg.com), so you should use it to avoid conflicts.
