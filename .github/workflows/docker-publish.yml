@@ -47,6 +47,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Build static site
+        run: |
+          yarn
+          yarn build
+
       - name: Build image
         run: docker build . --file Dockerfile --tag $IMAGE_NAME
 
