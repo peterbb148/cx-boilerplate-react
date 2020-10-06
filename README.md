@@ -37,7 +37,7 @@ This repo is automatically built and deployed using GitHub Actions.
 
 ## Deployment
 
-Should end up here: [Boilerplate](https://s3-cx-boilerplate-react-github-actions.s3-eu-west-1.amazonaws.com/index.html)
+Should end up here: [https://s3-cx-boilerplate-react-github-actions.s3-eu-west-1.amazonaws.com/index.html](https://s3-cx-boilerplate-react-github-actions.s3-eu-west-1.amazonaws.com/index.html)
 
 ## Docker
 
