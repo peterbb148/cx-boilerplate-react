@@ -45,7 +45,7 @@ If for some strange reason you would want to run this inside a container GitHub 
 
 ### GitHub Actions
 
-To download the image you must first login to (https://docs.github.com/en/free-pro-team@latest/packages/using-github-packages-with-your-projects-ecosystem/configuring-docker-for-use-with-github-packages)[GitHub Container Registry] and then do:
+To download the image you must first login to [GitHub Container Registry](https://docs.github.com/en/free-pro-team@latest/packages/using-github-packages-with-your-projects-ecosystem/configuring-docker-for-use-with-github-packages) and then do:
 
 ```
 docker pull peterbb148/cx-boilerplate-react
