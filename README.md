@@ -37,11 +37,24 @@ This repo is automatically built and deployed using GitHub Actions.
 
 ## Deployment
 
-Should end up here: [Boilerplate](https://s3-cx-boilerplate-react-github-actions.s3-eu-west-1.amazonaws.com/index.html)
+Should end up here: [https://s3-cx-boilerplate-react-github-actions.s3-eu-west-1.amazonaws.com/index.html](https://s3-cx-boilerplate-react-github-actions.s3-eu-west-1.amazonaws.com/index.html)
 
-## Docker Image
+## Docker
 
-If for some strange reason you would want to run this inside a container do this to build the image
+If for some strange reason you would want to run this inside a container GitHub Actions automatically builds an image and stores it in the GitHub Container Registry on every PR to master.
+
+### GitHub Actions
+
+To download the image you must first login to [GitHub Container Registry](https://docs.github.com/en/free-pro-team@latest/packages/using-github-packages-with-your-projects-ecosystem/configuring-docker-for-use-with-github-packages) and then do:
+
+```
+docker pull peterbb148/cx-boilerplate-react
+docker run -it -p 8080:80 peterbb148/cx-boilerplate-react
+```
+Which will start a container based on the image and attach to the running container to show console logs.
+
+### Create Image Locally
+
 ```
 docker build . --tag cx-boilerplate-react:latest
 ```
