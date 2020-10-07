@@ -3,9 +3,9 @@ const CARDS_DEMO = [
     title: 'Demo Project',
     description: 'A demo project to show case whatever management wants to see.',
     cta: {
-      label: 'Go to Success',
+      label: 'Go to Success 100%',
       type: 'external_link',
-      destination: 'https://www.baltikaonline.ru' 
+      destination: 'https://www.youtube.com' 
     }
   },
   {
